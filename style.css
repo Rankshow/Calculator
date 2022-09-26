@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style the body */
+body{
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+
+
+h1{
+    margin-bottom: 10px;
+}
+.calculator_container{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    background-color: olivedrab;
+
+}
+/* Input stayles */
+.userinput{
+    width: 90%;
+    height: 50px;margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+
+}
+/* button styles */
+.option, 
+.delete, 
+.sine,
+ .cos,
+ .tan{
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[value='Del']{
+    background-color: red;
+    color: wheat;
+}
+.delete:hover{
+    background-color: black;
+}
+.sine, .cos, .tan{
+    background-color: black;
+    color: white;
+}
+/* style for hovering trigometry function */
+  .sine:hover{
+    background-color: rgb(83, 69, 145);
+}
+.cos:hover{
+    background-color: rgb(83, 69, 145);
+}
+.tan:hover{
+    background-color: rgb(83, 69, 145);
+}
+.option:hover{
+    background-color: orange; 
+} 
+/* style eqaulTo button */
+#equals{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+#equals:hover{
+    background-color: orange;
+}
+/* style result */
+.result{
+    height: 50px;
+    color: rgb(252, 246, 246);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
