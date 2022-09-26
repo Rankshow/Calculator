@@ -53,6 +53,10 @@ input[value='Del']{
     background-color: red;
     color: wheat;
 }
+input[placeholder='Enter your number']{
+    padding: 5px;
+    font-size: 15px;
+}
 .delete:hover{
     background-color: black;
 }
@@ -75,7 +79,7 @@ input[value='Del']{
 } 
 /* style eqaulTo button */
 #equals{
-    width: 200px;
+    width: 140px;
     height: 50px;
     border-radius: 10px;
     border: none;

@@ -49,5 +49,3 @@ const removeItem = function(){
    results.textContent = '';
 }
 deleteNum.addEventListener('click', removeItem);
-
-
